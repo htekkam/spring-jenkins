@@ -19,7 +19,7 @@ public class SpringJenkinsApplication {
 
 	public static void main(String[] args) {
 		logger.info("Application executed");
-		logger.info("checking jenkins continous build");
+		logger.info("checking jenkins continous build  ");
 		logger.info("checking email notification from jenkins ");
 		SpringApplication.run(SpringJenkinsApplication.class, args);
 	}
